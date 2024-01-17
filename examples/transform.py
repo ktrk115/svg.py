@@ -10,7 +10,7 @@ We use functions instead of <g> and <use>
 because it gives a better control over types.
 """
 from __future__ import annotations
-import svg
+import svg_py as svg
 
 
 def heart_path() -> list[svg.PathData]:

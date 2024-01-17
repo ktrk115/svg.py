@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-import svg
+import svg_py as svg
 
 
 FIXTURES = Path(__file__).parent / 'fixtures'

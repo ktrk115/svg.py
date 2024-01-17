@@ -1,7 +1,7 @@
 from __future__ import annotations
 from dataclasses import dataclass, fields
 
-import svg
+import svg_py as svg
 
 try:
     from functools import cached_property

@@ -24,7 +24,7 @@ python3 -m pip install --user svg.py
 **Try svg.py online:** [svg.orsinium.dev](https://svg.orsinium.dev/).
 
 ```python
-import svg
+import svg_py as svg
 canvas = svg.SVG(
     width=60,
     height=60,
